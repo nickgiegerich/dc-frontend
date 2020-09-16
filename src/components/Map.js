@@ -19,7 +19,7 @@ const reversedCoords = coords.map( ll => {
 
 const MyMapComponent = compose(
     withProps({
-        googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDtuNfZkyohcnZDw1674DDc6vauAQRP090",
+        googleMapURL: "",
         loadingElement: <div style={{ height: `100%` }} />,
         containerElement: <div style={{ height: `100%` }} />,
         mapElement: <div style={{ height: `100%` }} />,
