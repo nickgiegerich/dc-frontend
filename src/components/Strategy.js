@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { storage } from '../firebase';
 import 'firebase/storage';
 import ReactPlayer from 'react-player'
 

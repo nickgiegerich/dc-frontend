@@ -1,13 +1,9 @@
 import React from 'react';
 import '../App.css';
-import ReactDOM from 'react-dom';
 import PersistentDrawerRight from './Nav-Secondary';
 
-import { makeStyles, ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import { makeStyles, createMuiTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 import Card from '@material-ui/core/Card'
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
@@ -86,7 +82,7 @@ function Contact() {
               <Card className={classes.cardRoot}>
                         <CardActionArea>
                           <CardMedia className={classes.media}>
-                          <img src='./images/george.jpg' alt="Map/Image One" className="center-image"/>
+                          <img src='./images/george.jpg' alt="george" className="center-image"/>
                           </CardMedia>
                           
                           <CardContent>
@@ -109,7 +105,7 @@ function Contact() {
               <Card className={classes.cardRoot}>
                         <CardActionArea>
                           <CardMedia className={classes.media}>
-                          <img src='./images/nickCont.jpg' alt="Map/Image One" className="center-image"/>
+                          <img src='./images/nickCont.jpg' alt="nick" className="center-image"/>
                           </CardMedia>
                           
                           <CardContent>
@@ -132,7 +128,7 @@ function Contact() {
               <Card className={classes.cardRoot}>
                         <CardActionArea>
                           <CardMedia className={classes.media}>
-                          <img src='./images/seanCont.jpg' alt="Map/Image One" className="center-image"/>
+                          <img src='./images/seanCont.jpg' alt="sean" className="center-image"/>
                           </CardMedia>
                           
                           <CardContent>
@@ -155,7 +151,7 @@ function Contact() {
               <Card className={classes.cardRoot}>
                         <CardActionArea>
                           <CardMedia className={classes.media}>
-                          <img src='./images/shawnCont.jpg' alt="Map/Image One" className="center-image"/>
+                          <img src='./images/shawnCont.jpg' alt="shawn" className="center-image"/>
                           </CardMedia>
                           
                           <CardContent>

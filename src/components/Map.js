@@ -12,14 +12,14 @@ const coords = [
         { lat: 42.6027, lng: -114.3849},
    ];
 
-const reversedCoords = coords.map( ll => {
-    return { lat: ll.lng, lng: ll.lat }
-});
+// const reversedCoords = coords.map( ll => {
+//     return { lat: ll.lng, lng: ll.lat }
+// });
 
 
 const MyMapComponent = compose(
     withProps({
-        googleMapURL: "",
+        googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDtuNfZkyohcnZDw1674DDc6vauAQRP090",
         loadingElement: <div style={{ height: `100%` }} />,
         containerElement: <div style={{ height: `100%` }} />,
         mapElement: <div style={{ height: `100%` }} />,

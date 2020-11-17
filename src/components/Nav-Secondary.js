@@ -16,9 +16,6 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Hidden from '@material-ui/core/Hidden';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
-import Nav from './Nav';
 
 import NavLinkMui from '../NavLinkMui';
 import ExpandLess from '@material-ui/icons/ExpandLess';
@@ -28,7 +25,6 @@ import ExploreIcon from '@material-ui/icons/Explore';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import MovieFilterIcon from '@material-ui/icons/MovieFilter';
 import ArtTrackIcon from '@material-ui/icons/ArtTrack';
-import MenuOpenRoundedIcon from '@material-ui/icons/MenuOpenRounded';
 
 import { Collapse } from '@material-ui/core';
 
@@ -44,12 +40,12 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: drawerWidth,
     },
   }, 
-  logo: {
-    margin: "auto",
-    textAlign: "center",
-    maxWidth: "50%",
-    maxHeight: "70%"
-  },
+  // logo: {
+  //   margin: "auto",
+  //   textAlign: "center",
+  //   maxWidth: "50%",
+  //   maxHeight: "70%"
+  // },
   title : {
     position: "absolute",
     left: "50%",
@@ -108,7 +104,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function PersistentDrawerRight(props) {
   const classes = useStyles();
-  const {container} = props;
   const theme = useTheme();
   const [open, setOpen] = React.useState(true);
   const [mobileOpen, setMobileOpen] = React.useState(false);

@@ -1,16 +1,14 @@
 import React from 'react';
 import '../App.css';
-import ReactDOM from 'react-dom';
 import PersistentDrawerRight from './Nav-Secondary';
 import { SRLWrapper } from 'simple-react-lightbox';
 import LazyLoad from 'react-lazyload';
 
-import { makeStyles, ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { makeStyles, createMuiTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 import Card from '@material-ui/core/Card'
 import CardMedia from '@material-ui/core/CardMedia';
-import { CardActionArea, CardContent, CardActions } from '@material-ui/core';
+import { CardActionArea, CardContent } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -94,7 +92,7 @@ function Ideas() {
                 <Card className={classes.cardRoot}>
                         <CardActionArea>
                           <CardMedia className={classes.media}>
-                          <img src='./images/card1.jpg' alt="Map/Image One" className="center-image"/>
+                          <img src='./images/card1.jpg' alt="Map One" className="center-image"/>
                           </CardMedia>
                           
                           <CardContent style={{paddingTop: '48px'}}>
@@ -164,7 +162,7 @@ function Ideas() {
               </div>
               <SRLWrapper>
               <div className="col-12" style={{paddingTop: '25px', paddingBottom: '65px'}}>
-                <img src='./images/lastImage.jpg' alt="Map/Image One" className="idea-images-one-two  my-shadow"/>  
+                <img src='./images/lastImage.jpg' alt="map overview" className="idea-images-one-two  my-shadow"/>  
               </div>
               </SRLWrapper>
             </div>

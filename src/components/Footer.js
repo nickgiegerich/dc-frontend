@@ -1,6 +1,5 @@
-import React, {props} from 'react';
+import React from 'react';
 import '../assets/styles/footer.css';
-import { useLocation } from 'react-router-dom';
 
 const Footer = () => { 
         return (

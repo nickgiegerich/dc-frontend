@@ -11,9 +11,8 @@ import InvestmentPage from './components/InvestmentPage';
 import Book from './components/Book';
 import Footer from './components/Footer';
 import SimpleReactLightbox from "simple-react-lightbox";
-import { BrowserRouter as Router, Switch, Route, useLocation, withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
-import { SRLWrapper } from 'simple-react-lightbox';
 
 
 function App() {
