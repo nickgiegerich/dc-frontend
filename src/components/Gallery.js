@@ -84,22 +84,28 @@ const GalleryPage = () => {
         <div id="content-page-one" className="container content">
           <div className="row">
             <div className="col-md-6 col-12 col-image-large">
-              <img src='./gallery/gallery-one.jpg' alt="Pond Lounging - 1" className="my-shadow" />
+              <img src='./gallery/gallery-one.jpg' alt="Daydreaming while immersed in the tranquility of Devils Corral." className="my-shadow" />
             </div>
             <div className="col-md-6 col-12 col-image-large">
-              <img src='./gallery/gallery-two.jpg' alt="Pond Lounging - 2" className="my-shadow" />
+              <img src='./gallery/gallery-two.jpg' alt="Peaceful nights hanging out at Devils Corral Pond." className="my-shadow" />
             </div>
             <div className="col-md-6 col-12 col-image-large">
-              <img src='./gallery/gallery-three.jpg' alt="Sunset Shot - 1" className="my-shadow" />
+              <img src='./gallery/gallery-three.jpg' alt="The golden glow of the Snake River Canyon at Devils Corral." className="my-shadow" />
             </div>
             <div className="col-md-6 col-12 col-image-large">
-              <img src='./gallery/gallery-four.jpg' alt="Sunset Shot - 2" className="my-shadow" />
+              <img src='./gallery/gallery-four.jpg' alt="On top of the world at Devils Corral." className="my-shadow" />
             </div>
             <div className="col-md-6 col-12 col-image-large">
-              <img src='./gallery/gallery-five.jpg' alt="Sunset Shot - 3" className="my-shadow" />
+              <img src='./gallery/gallery-five.jpg' alt="Finding peace and tranquility while exploring Devils Corral." className="my-shadow" />
             </div>
             <div className="col-md-6 col-12 col-image-large">
-              <img src='./gallery/gallery-six.jpg' alt="Sunset Shot - 4" className="my-shadow" />
+              <img src='./gallery/gallery-six.jpg' alt="Endless views at Devils Corral." className="my-shadow" />
+            </div>
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-seven.jpg' alt="Get lost in nature while finding yourself at Devils Corral." className="my-shadow" />
+            </div>
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-eight.jpg' alt="Uncover wonder at Devils Corral." className="my-shadow" />
             </div>
           </div>
         </div>
