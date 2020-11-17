@@ -1,7 +1,5 @@
 import React from 'react';
 import '../App.css';
-import ReactDOM from 'react-dom';
-import ImageGallery from 'react-image-gallery';
 import PersistentDrawerRight from './Nav-Secondary';
 import { SRLWrapper } from 'simple-react-lightbox';
 
@@ -75,7 +73,7 @@ const GalleryPage = () => {
                 <Grid>
                     <Paper className={classes.title}> 
                     <ThemeProvider theme={theme}>
-                        <Typography variant="h3">Aerial Photos</Typography>
+                        <Typography variant="h3">Gallery</Typography>
                     </ThemeProvider>
                     <Divider className="page-divider" />
                     </Paper>
@@ -85,20 +83,23 @@ const GalleryPage = () => {
       <SRLWrapper>
         <div id="content-page-one" className="container content">
           <div className="row">
-            <div className="col-md-6 col-12 col-image-half">
-              <img src='./gallery/gallery1.jpeg' alt="Devils Corral from above - 1" className="my-shadow" />
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-one.jpg' alt="Pond Lounging - 1" className="my-shadow" />
             </div>
-            <div className="col-md-6 col-12 col-image-half">
-              <img src='./gallery/gallery2.jpeg' alt="Devils Corral from above - 2" className="my-shadow" />
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-two.jpg' alt="Pond Lounging - 2" className="my-shadow" />
             </div>
-            <div className="col-md-4 col-12 col-image-small">
-              <img src='./gallery/gallery3.jpeg' alt="Devils Corral from above - 3" className="my-shadow" />
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-three.jpg' alt="Sunset Shot - 1" className="my-shadow" />
             </div>
-            <div className="col-md-4 col-12 col-image-small">
-              <img src='./gallery/gallery4.jpeg' alt="Devils Corral from above - 4" className="my-shadow" />
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-four.jpg' alt="Sunset Shot - 2" className="my-shadow" />
             </div>
-            <div className="col-md-4 col-12 col-image-small">
-              <img src='./gallery/gallery5.jpeg' alt="Devils Corral from above - 5" className="my-shadow" />
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-five.jpg' alt="Sunset Shot - 3" className="my-shadow" />
+            </div>
+            <div className="col-md-6 col-12 col-image-large">
+              <img src='./gallery/gallery-six.jpg' alt="Sunset Shot - 4" className="my-shadow" />
             </div>
           </div>
         </div>

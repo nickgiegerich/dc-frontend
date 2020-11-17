@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
 import '../App.css';
-import ReactDOM from 'react-dom';
 import PersistentDrawerRight from './Nav-Secondary';
 import { Document } from 'react-pdf/dist/esm/entry.webpack';
 import { Page } from 'react-pdf';
 import pdf from '../pdf/booklet.pdf';
 
-import { makeStyles, ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import { makeStyles, createMuiTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import Card from '@material-ui/core/Card'
-import CardMedia from '@material-ui/core/CardMedia';
-import { CardActionArea, CardContent, CardActions } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -74,6 +67,8 @@ function Book() {
 
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
+    // const setNumPages = useState(null);
+    // const pageNumber = useState(1);
     const classes = useStyles();
 
     function onDocumentLoadSuccess({ numPages }) {
@@ -97,7 +92,7 @@ if(width > 768) {
                         <hr/>
                     </div>
                     <div className="col-12" stlye={{paddingBottom: '65px'}}>
-                        <a href={pdf} target="_blank">
+                        <a href={pdf} target="_blank" rel="noopener noreferrer">
                             <Document
                                 file='./pdf/booklet.pdf'
                                 onLoadSuccess={onDocumentLoadSuccess}
@@ -137,7 +132,7 @@ if(width > 768) {
                         <hr/>
                     </div>
                     <div className="col-12">
-                        <a href={pdf} target="_blank">
+                        <a href={pdf} target="_blank" rel="noopener noreferrer">
                             <Document
                                 file='./pdf/booklet.pdf'
                                 onLoadSuccess={onDocumentLoadSuccess}

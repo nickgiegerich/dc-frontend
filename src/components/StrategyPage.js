@@ -1,16 +1,9 @@
 import React from 'react';
 import '../App.css';
-import ReactDOM from 'react-dom';
 import PersistentDrawerRight from './Nav-Secondary';
 import Strategy from './Strategy';
-import Footer from './Footer';
-
-
-import { makeStyles, ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import { makeStyles, createMuiTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
     root: {

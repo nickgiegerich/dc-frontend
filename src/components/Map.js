@@ -12,9 +12,9 @@ const coords = [
         { lat: 42.6027, lng: -114.3849},
    ];
 
-const reversedCoords = coords.map( ll => {
-    return { lat: ll.lng, lng: ll.lat }
-});
+// const reversedCoords = coords.map( ll => {
+//     return { lat: ll.lng, lng: ll.lat }
+// });
 
 
 const MyMapComponent = compose(
