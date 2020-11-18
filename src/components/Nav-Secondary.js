@@ -143,6 +143,13 @@ export default function PersistentDrawerRight(props) {
         <Collapse in={openDev} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
 
+            <ListItem button component={NavLinkMui} to='/book'>
+                <ListItemIcon style={{ color: 'white'}}>
+                  <MenuBookIcon />
+                </ListItemIcon>
+                <ListItemText className="nav-text" primary="Strategy" />
+              </ListItem>
+
               <ListItem button component={NavLinkMui} to='/ideas'>
                 <ListItemIcon style={{ color: 'white'}}>
                   <WbIncandescentIcon />
@@ -156,14 +163,7 @@ export default function PersistentDrawerRight(props) {
                 </ListItemIcon>
                 <ListItemText className="nav-text" primary="Maps" />
               </ListItem>
-
-              <ListItem button component={NavLinkMui} to='/book'>
-                <ListItemIcon style={{ color: 'white'}}>
-                  <MenuBookIcon />
-                </ListItemIcon>
-                <ListItemText className="nav-text" primary="Strategy" />
-              </ListItem>
-
+              
           </List>
         </Collapse>
 

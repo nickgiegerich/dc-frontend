@@ -5,6 +5,7 @@ import { Document } from 'react-pdf/dist/esm/entry.webpack';
 import { Page } from 'react-pdf';
 import pdf from '../pdf/booklet.pdf';
 
+
 import { makeStyles, createMuiTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 

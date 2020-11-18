@@ -113,6 +113,13 @@ function Nav(props) {
               <Collapse in={openDev} timeout="auto" unmountOnExit>
                 <List component="div" disablePadding>
 
+                  <ListItem button component={NavLinkMui} to='/book'>
+                      <ListItemIcon className="nav-text" >
+                        <MenuBookIcon className="nav-text" />
+                      </ListItemIcon>
+                      <ListItemText className="nav-text" primary="Strategy" />
+                    </ListItem>
+
                     <ListItem className="nav-text" button component={NavLinkMui} to='/ideas'>
                       <ListItemIcon className="nav-text" >
                         <WbIncandescentIcon className="nav-text"/>
@@ -125,13 +132,6 @@ function Nav(props) {
                         <ExploreIcon className="nav-text"  />
                       </ListItemIcon>
                       <ListItemText className="nav-text" primary="Maps" />
-                    </ListItem>
-
-                    <ListItem button component={NavLinkMui} to='/book'>
-                      <ListItemIcon className="nav-text" >
-                        <MenuBookIcon className="nav-text" />
-                      </ListItemIcon>
-                      <ListItemText className="nav-text" primary="Strategy" />
                     </ListItem>
 
                 </List>
